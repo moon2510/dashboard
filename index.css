@@ -1,0 +1,341 @@
+body {
+   margin: 0;
+}
+
+.layout {
+   display: grid;
+   grid-template-columns: 20% 80%;
+}
+
+.logonav {
+   color: white;
+   background-color: rgb(78, 30, 190);
+   border-radius: 0px 40px 40px 0px;
+}
+
+h1 {
+   font-style: italic;
+   margin-left: 10%;
+   font-family: OpenSans-Bold;
+}
+
+.icon {
+   display: grid;
+   grid-template-columns: 30% 70%;
+   padding: 15px 7% 15px 7%;
+}
+
+.option :hover {
+   color: black;
+   background-color: white;
+   cursor: pointer;
+}
+
+.navbar i {
+   color: rgb(87, 155, 233);
+   padding-right: 7px;
+   font-size: 32px;
+   text-align: center;
+}
+
+@font-face {
+   src: url(/Fonts/OpenSans-Light.ttf);
+   font-family: OpenSans-Light;
+}
+
+@font-face {
+   src: url(/Fonts/OpenSans-Bold.ttf);
+   font-family: OpenSans-Bold;
+}
+
+h6 {
+   font-size: 16px;
+   font-family: OpenSans-Light;
+   margin: 6px;
+}
+
+.helpcenter {
+   background-color: rgb(31, 12, 141);
+   margin: 55px 15px 15px;
+   border-radius: 40px;
+   text-align: center;
+   padding-top: 15px;
+}
+
+.helpcenter img {
+   border-radius: 40px;
+}
+
+/* CENTER */
+
+.center {
+   background-color: whitesmoke;
+}
+
+.header {
+   background-color: white;
+   padding: 15px;
+   display: grid;
+   grid-template-columns: 90% 10%;
+   align-items: center;
+   box-shadow: 0px 7px 0px rgb(240, 240, 240);
+}
+
+/* Search */
+
+.search {
+   margin-left: 2%;
+   position: relative;
+}
+
+.search ::placeholder {
+   color: rgb(214, 211, 214);
+}
+
+input:focus, select:focus, textarea:focus {
+   outline: none;
+}
+
+input[type=text] {
+   width: 45%;
+   padding: 12px 50px;
+   box-sizing: border-box;
+   border-radius: 10px;
+   border: rgb(211, 204, 204) 1px solid;
+   box-shadow: 5px 5px 30px rgba(247, 239, 239, 0.8);
+   opacity: 0.8;
+}
+
+.fa-search {
+   margin-left: 2%;
+   position: absolute;
+   color: #bfc3c5;
+   top: 23%;
+   font-size: 25px;
+}
+
+/* Beal & Avt */
+
+.bell {
+   float: right;
+   font-size: 25px;
+   display: flex;
+   align-items: center;
+}
+
+.fa-bell {
+   color: rgb(218, 213, 213);
+}
+
+.bell img {
+   border-radius: 50%;
+   width: 35px;
+   margin-left: 20px;
+   box-shadow: 8px 8px 8px rgb(230, 227, 227);
+}
+
+/* CHART */
+
+h2 {
+   margin-left: 4%;
+   font-family: OpenSans-Bold;
+   font-size: 20px;
+}
+
+/* Time Spent On Projects */
+
+#dif {
+   margin-left: 3%;
+}
+
+.timeflex {
+   display: grid;
+   grid-template-columns: 63% 12% 25%;
+   align-items: center;
+}
+
+#active {
+   color: #00aba9;
+}
+
+#passive {
+   color: #29088A;
+   font-weight: 500;
+}
+
+.hour {
+   margin-bottom: 40px;
+}
+
+.hour th {
+   padding: 15px 50px 15px 10px;
+   color: black;
+}
+
+#chartout {
+   background-color: #00aba9;
+   display: flex;
+   align-items: flex-end;
+   border-radius: 10px 10px 0px 0px;
+}
+
+#chartin {
+   background-color: #29088A;
+   border-radius: 10px 10px 0px 0px;
+}
+
+h4 {
+   margin: 0;
+   padding: 10px 0px 10px 0px;
+   font-size: 14px;
+}
+
+.timespentchart {
+   text-align: center;
+   padding-right: 50px !important;
+}
+
+.chart, .datanum {
+   display: grid;
+   grid-template-columns: 69.5% 30.5%;
+}
+
+.datanum {
+   padding-bottom: 15px;
+}
+
+.bgr {
+   background-color: white;
+   opacity: 0.8;
+}
+
+.spentchart, .numtrans {
+   margin-left: 4%;
+   margin-right: 1%;
+}
+
+.ratechart, .numincome {
+   margin-left: 4%;
+   margin-right: 7%;
+}
+
+.ratechart {
+   padding-top: 25px;
+   padding-bottom: 24px;
+}
+
+.info {
+   display: grid;
+   grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+/* YourProject */
+
+.infinis {
+   margin-left: 9%;
+}
+
+.divide {
+   margin-right: 6%;
+   align-items: center;
+   text-align: center;
+   display: grid;
+   grid-template-columns: 40% 60%;
+}
+
+#logo {
+   width: 60%;
+   margin: 0;
+   padding: 0;
+}
+
+#big {
+   width: 70%;
+}
+
+h5 {
+   font-size: 14px;
+   font-family: OpenSans-Light;
+}
+
+.progress, .pay {
+   display: flex;
+   align-items: center;
+   margin-top: -35px;
+}
+
+#name {
+   padding-right: 4px;
+   color: rgb(46, 44, 44);
+   text-align: left;
+}
+
+#gray {
+   color: rgb(211, 208, 208);
+   padding-right: 4px;
+}
+
+#purple {
+   color: rgb(87, 50, 189);
+}
+
+#blue {
+   color: rgb(64, 180, 247);
+}
+
+#green {
+   color: rgb(67, 211, 67);
+}
+
+#red {
+   color: rgb(233, 93, 93);
+}
+
+.quin {
+   margin-right: 6%;
+}
+
+.terra {
+   margin-right: 7%;
+}
+
+/* Your Transactions */
+
+table {
+   text-align: left;
+   border-collapse: collapse;
+   border: none;
+   font-family: OpenSans-Light;
+   font-size: 14px;
+}
+
+th {
+   padding: 8px 48px 8px;
+   border-left: none;
+   border-right: none;
+   color: rgb(59, 10, 151);
+}
+
+.rows th {
+   color: rgb(201, 198, 198);
+   padding-top: 14px;
+   padding-bottom: 14px;
+   letter-spacing: 0.2px;
+}
+
+.numincome {
+   display: grid;
+   grid-template-columns: 50% 50%;
+   text-align: center;
+   line-height: 100%;
+}
+
+.day {
+   text-align: right;
+   padding: 21px 15px 22px;
+}
+
+i {
+   color: rgba(34, 34, 138, 0.89);
+   font-size: 28px;
+}
